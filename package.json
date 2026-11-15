@@ -1,0 +1,19 @@
+{
+  "name": "navalha-real",
+  "version": "1.0.0",
+  "description": "Navalha Real – Sistema de gestão e agendamento para barbearia (Node.js + Express + MySQL)",
+  "main": "server.js",
+  "private": true,
+  "engines": { "node": ">=20.12" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "mysql2": "^3.11.5"
+  }
+}
